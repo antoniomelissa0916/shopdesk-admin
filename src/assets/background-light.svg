@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <radialGradient id="glow-teal" cx="88%" cy="0%" r="60%">
+      <stop offset="0" stop-color="#14b8a6" stop-opacity="0.22" />
+      <stop offset="1" stop-color="#14b8a6" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="glow-amber" cx="8%" cy="100%" r="55%">
+      <stop offset="0" stop-color="#f59e0b" stop-opacity="0.14" />
+      <stop offset="1" stop-color="#f59e0b" stop-opacity="0" />
+    </radialGradient>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#0f3d3a" fill-opacity="0.08" />
+    </pattern>
+  </defs>
+  <rect width="1600" height="1000" fill="#f1f4f3" />
+  <rect width="1600" height="1000" fill="url(#dots)" />
+  <rect width="1600" height="1000" fill="url(#glow-teal)" />
+  <rect width="1600" height="1000" fill="url(#glow-amber)" />
+  <g fill="none" stroke="#0f766e" stroke-opacity="0.08" stroke-width="1.5">
+    <path d="M0 760 C 300 690 520 850 800 780 S 1300 680 1600 740" />
+    <path d="M0 810 C 300 740 520 900 800 830 S 1300 730 1600 790" />
+    <path d="M0 860 C 300 790 520 950 800 880 S 1300 780 1600 840" />
+    <path d="M0 910 C 300 840 520 1000 800 930 S 1300 830 1600 890" />
+  </g>
+</svg>
